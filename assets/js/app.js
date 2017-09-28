@@ -22,7 +22,8 @@ function searchForMovie () {
             var entry = document.createElement('li');
         //     $(this).contents().appendTo("#watchlist")
             // entry.appendChild(document.createTextNode(entry));
-            list.append(this)
+            list.append(this);
+            $('#nothing').addClass('myClass') 
         });
 
     }

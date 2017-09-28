@@ -1,0 +1,60 @@
+  .header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+    color: 333333;
+    padding: 25px;
+    font-size: 40px;
+  }
+
+  .header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+
+  }
+
+h2 {
+    text-align: left;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 15px;
+    size: 16px;
+}
+
+ul li {
+    border: 2px solid #a1a1a1;
+    padding: 10px 30px; 
+    background: #dddddd;
+    border-radius: 15px;
+    margin: 5px
+    
+}
+
+ul {
+    padding: 20px;
+}
+
+body {
+    background-color: #F9FBFB;
+    font-family: sans-serif
+}
+
+#mainNav {
+    color:red;
+    float: right;
+}
+
+.myClass {
+    display: none;
+}
+
+.newClass {
+    display: ''
+}
+
+p {
+    margin: 20px;
+    color: rgba(9, 51, 9, 0.88);
+    font-size: 20px;
+}

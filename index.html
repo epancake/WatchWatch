@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Watch Watch!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/style/main.css">
+
+    </head>
+
+    <body>
+        <div class="header">
+            <img src="assets/graphics/movie-icon.png" alt="logo" />
+            <h1>Watch Watch!</h1>
+        </div>
+        <nav id="mainNav">
+            <a href="index.html">Clear All</a>
+        </nav>
+        <form id="myForm"> 
+    Search Movie Titles:<input id='valueInput' name='movieTitle' type="text" maxlength="40"><br>
+    <input type="submit" value='Search'>
+  </form>
+  <div id="searchDiv" class="myClass">
+    <h2>Search Results</h2>
+    <p>Click a search result to add it to your watchlist.</p>
+    <ul id="searchResults"></ul>
+  </div>
+
+<h2>Watchlist</h2>
+
+<div>
+    <ul id="watchlist"></ul>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+  <script src ="assets/js/app.js"></script>
+    </body>
+</html>
